@@ -1,10 +1,13 @@
+# 1. Ignore EVERYTHING in the root folder
 /*
 
+# 2. Allow the config files
 !/.gitignore
-!/README.md
-
 !/pubspec.yaml
 !/l10n.yaml
 
-!/lib/
+# 3. Allow documentation (Check if yours is README.md or readme.md)
+!/readme.md
 
+# 4. Allow the source code directory
+!/lib/
